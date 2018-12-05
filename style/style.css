@@ -5,7 +5,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*.....SECTION HEADER.....*/
+/*------------------------------------*\
+  #SECTION-HEADER
+\*------------------------------------*/
 .menu {
     position: relative;
     text-transform: uppercase;
@@ -76,8 +78,9 @@
     font-weight: bold;
 }
 
-/*.....SECTION TITLE.....*/
-
+/*------------------------------------*\
+  #SECTION-TITLE
+\*------------------------------------*/
 .title {
     position: relative;
     display: flex;
@@ -109,7 +112,6 @@
 .title__header--big {
     font-size: 40px;
     text-transform: uppercase;
-    letter-spacing: -3px;
     padding-bottom: 20px;
 }
 
@@ -127,4 +129,44 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
+}
+
+
+/*------------------------------------*\
+  #SECTION-SERVICES
+\*------------------------------------*/
+.services__header {
+    text-align: center;
+    padding: 50px;
+}
+
+.services__header--big {
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.services__block {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.services__icon {
+    font-size: 40px;
+}
+
+.services__block__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.services__block__header {
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+.services__block__text {
+    padding: 8px;
 }
