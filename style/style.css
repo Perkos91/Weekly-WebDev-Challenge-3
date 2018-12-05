@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*.....SECTION HEADER.....*/
+.menu {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.menu__toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.menu__main {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+/* .menu__main.active {
+    text-align: center;
+    padding-bottom: 28px;
+    color: red;
+} */
+
+.menu__main li {
+    padding: 8px 0;
+}
+
+.menu__main__item {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.logo__item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    line-height: 50px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.logo__item__leaf {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #7cc576;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    transform: rotate(-100deg);
+}
+
+.logo__text {
+    padding: 0 12px;
+    font-weight: bold;
+}
+
+/*.....SECTION TITLE.....*/
+
+.title {
+    position: relative;
+    display: flex;
+    background: url(/img/header.jpg) no-repeat center;
+    background-size: cover;
+    /* height: 100%; */
+    min-height: 80vh;
+    color: #fff;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.title__header {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    /* padding: 0 180px; */
+
+}
+
+.title__header--big {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    padding-bottom: 20px;
+}
+
+.title__header--small {
+    display: block;
+    color: #ccc;
+}
+
+.title__btn {
+    margin: 80px 0;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 25px;
+    background-color: #7cc576;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
